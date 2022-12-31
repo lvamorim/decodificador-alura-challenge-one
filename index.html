@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Decodificador | Alura Challenge - ONE</title>
+    <meta name="description" content="Projeto de codificador de textos feito em conjunto com a Alura para o Challenge ONE - Iniciante em Programação.">
+
+    <link rel="shortcut icon" href="logo.svg">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo-alura" src="logo.svg" alt="Logo da Alura">
+        <h1 class="titulo-principal">Decodificador</h1>
+    </header>
+
+    <main class="container">
+        <section class="coluna-esquerda">
+            <textarea id="input" class="input" placeholder="Digite seu texto" autocomplete="off"></textarea>
+
+            <div class="aviso">
+                <img class="imagem-aviso" src="warning.svg" alt="Vetor de exclamação">
+                <p class="texto-aviso">Apenas letras minúsculas e sem acento. <span class="texto-aviso-sugestao">Use vogais ;)</span></p>
+            </div>
+
+            <div class="botoes-cripto-descripto">
+                <button id="criptografar" class="botoes-geral botao-criptografar">criptografar</button>
+                <button id="descriptografar" class="botoes-geral botao-descriptografar">descriptografar</button>
+            </div>
+        </section>
+
+        <section class="coluna-direita">
+            <div id="placeholder" class="placeholder">
+                <img class="imagem-placeholder" src="placeholder.svg" alt="Vetor de um personagem segurando uma lupa, surpreso ao observar um diamante">
+                <h2 class="titulo-placeholder">Nenhuma mensagem encontrada</h2>
+                <span class="frase-placeholder">Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+
+            <div id="container-output" class="container-output">
+                <textarea id="output" class="output" readonly></textarea>
+                <button id="copiar" class="botoes-geral botao-copiar">copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h3 class="frase-rodape">Desenvolvido por <a class="assinatura" href="https://github.com/lvamorim">lvamorim</a> em conjunto com a Alura e o Programa One</h3>
+    </footer>
+
+</body>
+
+</html>

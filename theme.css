@@ -1,0 +1,44 @@
+:root {
+    --fundo-geral: #E9ECF8;
+    --texto-geral-selecionado: #AAB2D5;
+    --sombra-geral: rgba(10, 56, 113, 0.1);
+
+    --fundo-cabecalho: #F3F5FC;
+    --borda-cabecalho: rgba(0, 0, 0, 0.1);
+    --titulo-principal: #0A3871;
+    
+    --fundo-coluna-esquerda: #F3F5FC;
+    --fundo-input: #FFFFFF;
+    --texto-input: #0A3871;
+    --texto-aviso: #495057;
+    --texto-aviso-sugestao: #343A40;
+    --borda-botao-cripto: #052051;
+    --fundo-botao-cripto: #0A3871;
+    --texto-botao-cripto: #E9ECF8;
+    --borda-botao-descripto: #072B61;
+    --fundo-botao-descripto: #AAB2D5;
+    --texto-botao-descripto: #072B61;
+    --borda-botao-cripto-hover: #052051;
+    --fundo-botao-cripto-hover: #356EA9;
+    --texto-botao-cripto-hover: #E9ECF8;
+    --borda-botao-descripto-hover: #052051;
+    --fundo-botao-descripto-hover: #356EA9;
+    --texto-botao-descripto-hover: #E9ECF8;
+
+    --fundo-coluna-direita: #FFFFFF;
+    --titulo-placeholder: #343A40;
+    --frase-placeholder: #495057;
+    --fundo-output: #FFFFFF;
+    --texto-output: #343A40;
+    --borda-botao-copiar: #0A3871;
+    --fundo-botao-copiar: #FFFFFF;
+    --texto-botao-copiar: #0A3871;
+    --borda-botao-copiar-hover: #052051;
+    --fundo-botao-copiar-hover: #356EA9;
+    --texto-botao-copiar-hover: #E9ECF8;
+
+    --fundo-rodape: #F3F5FC;
+    --borda-rodape: rgba(0, 0, 0, 0.1);
+    --frase-rodape: #495057;
+    --creditos-rodape: #356EA9;
+}
