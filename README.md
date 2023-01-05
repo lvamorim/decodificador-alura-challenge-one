@@ -4,7 +4,12 @@
 
 <br>
 
-## Funcionamento
+## Link
+https://lvamorim.github.io/decodificador-alura-challenge-one/
+
+<br>
+
+## Como funciona
 <ul>
   <li>O texto deve consistir em apenas letras minúsculas.</li>
   <li><strong>NÃO</strong> é permitido acentos, números ou caracteres especiais fora da exceção.</li>
@@ -12,7 +17,7 @@
   <li>Os únicos caracteres permitidos são:<pre><strong>. , ! ?</strong></li></pre>
 </ul>
   <li>A criptografia acontece pelas <strong>vogais</strong>.</li>
-</u>
+</ul>
 
 <br>
 
